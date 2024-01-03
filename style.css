@@ -1,3 +1,7 @@
+/* *{
+  margin: 0;
+} */
+
 h1 {
     text-align: center;
    }
@@ -50,7 +54,7 @@ h1 {
    
    .keyboard-button {
     border: 0.5px solid rgb(166, 166, 166);
-        border-radius: 5px;
+    border-radius: 5px;
      font-size: 1rem;
      font-weight: 700;
      padding: 0.5rem;
@@ -58,3 +62,39 @@ h1 {
      cursor: pointer;
      text-transform: uppercase;
    }
+
+
+   #footer {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+/* Social media icons styling */
+.social-media a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* .social-media a:hover {
+    color: #007bff;
+} */
+
+/* Buy me a coffee link styling */
+#footer p a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#footer p a:hover {
+    text-decoration: underline;
+}
